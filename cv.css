@@ -1,0 +1,120 @@
+
+
+
+header p {
+	font-weight: bold;
+	font-size: 2em;
+}
+header {
+	margin-bottom: 100px;
+}
+h1 span {
+	color: #FFC107;
+}
+
+p span {
+	text-decoration: underline;
+	text-decoration-color: #FFC107;
+}
+
+
+h2 {
+	border-bottom: 1px solid #FFC107;
+	margin-left: 40px;
+}
+
+
+#liseré {
+	width: 400px;
+	background: #FFC107;
+	border-radius: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	font-family: georgia;
+}
+
+
+
+
+
+body {
+	display: flex;
+}
+
+#corps {
+	margin-left: 40px;
+}
+
+
+img {
+	width: 180px;
+	border-radius: 50%;
+	border: 1px solid black;
+
+}
+
+.foto {
+	text-align: center;
+}
+
+#liseré h1 {
+	font-family: arial, serif;
+	background-color: #263238;
+	font-size: 29px;
+	margin-left: 0px;
+	margin-right: 0px;
+	color: #FFC107;
+	text-align: center;
+
+}
+#liseré p {
+	text-align: justify;
+	margin: 20px;
+}
+
+.foto {
+	justify-content: center;
+}
+
+#corps h1 {
+	font-family: serif;
+	font-size: 4em;
+}
+
+article {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	}
+
+article div {
+	width: 60%;
+
+}
+
+.chap {
+	float: left;
+	width: 30px;
+	border-bottom: 1px solid #FFC107;
+}
+
+.val img {
+	float: left;
+	width: 25px;
+	border-bottom: 1px solid #FFC107;
+}
+
+.styl img {
+	float: left;
+	width: 30px;
+	border-bottom: 1px solid #FFC107;
+}
+
+.recom {
+	display: flex;
+	justify-content: space-between;
+}
+#corps {
+	font-family: calibri;
+}
+
+@media screen and (max-width: 1080px)
