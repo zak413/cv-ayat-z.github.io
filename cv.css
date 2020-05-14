@@ -3,11 +3,16 @@
 
 header p {
 	font-weight: bold;
-	font-size: 2em;
+	font-size: 1.3em;
 }
-header {
-	margin-bottom: 100px;
+
+h1 {
+	font-size: 3em;
 }
+.nom {
+	margin-left: 30px;
+}
+
 h1 span {
 	color: #FFC107;
 }
@@ -27,25 +32,56 @@ h2 {
 #liseré {
 	width: 400px;
 	background: #FFC107;
-	border-radius: 5px 5px 5px 5px;
 	padding: 5px 5px 5px 5px;
-	font-family: georgia;
+	font-family: georgia, serif;
 }
 
 
-.fa-graduation-cap {
+.fa-graduation-cap, .fa-suitcase, .fa-pen {
 	color: #FFC107;
+	font-size: 1em;
+	margin-right: 16px;
 }
 
+.fa-dot-circle {
+	font-size: 0.7em;
+	color: #FFC107;
+	margin-right: 10px; 
+}
 
-body {
+.fa-circle {
+	font-size: 0.5em;
+	color: #FFC107;
+	margin-right: 10px; 
+}
+
+.fa-futbol, .fa-anchor, .fa-car {
+	font-size: 3em;
+	margin: 20px 20px 20px 20px;
+}
+
+.loisirs {
 	display: flex;
+	justify-content: center;
 }
 
-#corps {
-	margin-left: 40px;
+#contener {
+	display: flex;
+	margin: auto;
+	width: 1200px;
+	flex-direction: row-reverse;
+	border: 1px solid black;
+	
 }
 
+#droite {
+	width: 800px;
+	margin-right: 20px;
+}
+
+main {
+	margin-top: 90px;
+}
 
 img {
 	width: 180px;
@@ -54,11 +90,7 @@ img {
 
 }
 
-.foto {
-	text-align: center;
-}
-
-#liseré h1 {
+#liseré h2 {
 	font-family: arial, serif;
 	background-color: #263238;
 	font-size: 29px;
@@ -73,50 +105,41 @@ img {
 	margin: 20px;
 }
 
-.foto {
-	justify-content: center;
-}
-
 #corps h1 {
 	font-family: serif;
 	font-size: 4em;
 }
 
-article {
+
+li {
+	list-style-type: none;
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+
+}
+
+.formation {
+	width: 500px;
+}
+
+.recommandation {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 30px;
-	}
-
-article div {
-	width: 60%;
-
+	width: 600px;
+	margin-left: 45px;
 }
 
-.chap {
-	float: left;
-	width: 30px;
-	border-bottom: 1px solid #FFC107;
+.photo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
 }
 
-.val img {
-	float: left;
-	width: 25px;
-	border-bottom: 1px solid #FFC107;
-}
-
-.styl img {
-	float: left;
-	width: 30px;
-	border-bottom: 1px solid #FFC107;
-}
-
-.recom {
-	display: flex;
-	justify-content: space-between;
-}
-#corps {
-	font-family: calibri;
+address {
+	text-decoration: none;
+	font-style: normal;
 }
 
 @media screen and (max-width: 1080px)
