@@ -27,7 +27,7 @@ h2 {
 
 
 #liseré {
-	width: 400px;
+	width: 40%;
 	background: #FFC107;
 	padding: 5px 5px 5px 5px;
 	font-family: georgia, serif;
@@ -65,14 +65,14 @@ h2 {
 
 #contener {
 	display: inline-flex;
-	width: 1200px;
+	width: 100%;
 	flex-direction: row-reverse;
 	align-items: baseline;
 	
 }
 
 #droite {
-	width: 800px;
+	width: 80%;
 }
 
 
@@ -144,6 +144,7 @@ a:hover {
 
 header {
 	display: flex;
+	width: 1200px;
 }
 
 #photo {
@@ -167,12 +168,76 @@ header {
 	margin-top: 40px;
 }
 
-@media all and (max-device-width: 480px)
+@media (max-device-width: 767px)
 {
 	#contener {
 		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	header {
+		flex-direction: column-reverse;
 		width: 100%;
 	}
 
+	li {
+		flex-direction: column;
+	}
+
+
+	.recommandation {
+		flex-direction: column;
+		width: 100%;
+	}
+
+
+	.formation {
+		width: 100%;
+	}
+
+	#page {
+		width: 100%;
+	}
+
+	#liseré {
+		width: 100%;
+	}
+
+	#photo {
+		width: 100%;
+		background-color: white;
+	}
+
+
+	.prénom {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	h2 {
+		text-align: center;
+		font-size: 4.5em;
+		background-color: #90A4AE;
+	}
+
+	div h3 {
+		text-align: center;
+	}
+
+	div p {
+		text-align: center;
+	}
+
+	li div {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.photo {
+		width: 800px;
+	}
 
 }
