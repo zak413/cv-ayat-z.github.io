@@ -240,4 +240,52 @@ header {
 		width: 800px;
 	}
 
+    header {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    li {
+        flex-direction: column;
+    }
+
+
+    .recommandation {
+        flex-direction: column;
+    }
+
+    .formation {
+        width: 100%;
+    }
+
+    #page {
+    	border: 1px solid black;
+        width: 100%;
+    }
+
+    #liseré {
+        width: 100%;
+    }
+
+    #photo {
+        width: 100%;
+        background-color: white;
+    }
+
+    .prénom {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #droite {
+        width: 100%;
+    }
+
+    .prénom {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
 }
