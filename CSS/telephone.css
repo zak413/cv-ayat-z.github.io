@@ -1,0 +1,62 @@
+@media screen and (max-width: 747px) 
+{
+	#conteneur {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    header {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    li {
+        flex-direction: column;
+    }
+
+
+    .recommandation {
+        flex-direction: column;
+    }
+
+    .formation {
+        width: 100%;
+    }
+
+    #page {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    #lisere {
+        width: 100%;
+    }
+
+    #photo {
+        width: 100%;
+        background-color: white;
+    }
+
+    .prenom {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #droite {
+        width: 100%;
+    }
+
+    .prenom {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+	
+	.fa-futbol, .fa-mountain, .fa-running {
+		padding: 0px;
+		border: none;
+	}
+
+
+}

@@ -1,0 +1,56 @@
+@media (min-width: 747px) and (max-width: 1024px) 
+{
+	#page {
+		width: 100%;
+		overflow-x: hidden;
+	}
+
+	#conteneur {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	#lisere {
+		display: flex;
+		width: 100%;
+		height: 350px;
+	}
+
+	#lisere section {
+		margin-left: 10px;
+	}
+
+
+	header {
+		width: 100%;
+	}
+
+	#photo {
+		background-color: white;
+	}
+
+
+	#droite {
+		width: 100%;
+	}
+
+	.recommandation {
+		justify-content: space-around;
+		width: 100%;
+	}
+	
+	.propos {
+		overflow: auto;
+		height: 200px;
+	}
+	
+	#lsr {
+		margin-top: 1px;
+	}
+	
+	.fa-futbol, .fa-mountain, .fa-running {
+		padding: 0px;
+		border: none;
+	}
+
+}
