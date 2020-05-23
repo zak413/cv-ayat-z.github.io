@@ -34,9 +34,10 @@
 .fa-futbol, .fa-mountain, .fa-running {
 	font-size: 3em;
 	margin: 20px 20px 20px 20px;
-	border: 1px solid black;
+	border: 1px solid #263238;;
 	border-radius: 50%;
 	padding: 20px;
+	color: #263238;
 }
 
 .loisirs {
@@ -57,12 +58,9 @@
 #lisere p {
 	text-align: justify;
 	margin: 20px;
+	color: #263238;
 }
 
-address {
-	text-decoration: none;
-	font-style: normal;
-}
 
 a {
 	text-decoration: none;
@@ -191,6 +189,10 @@ li {
 	justify-content: space-between;
 	width: 600px;
 	margin-left: 45px;
+}
+
+div a {
+	color: #263238;
 }
 
 /*========================================= FIN CSS PARTIE DROITE=============================================*/
