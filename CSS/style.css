@@ -38,15 +38,19 @@
 	color: #263238;
 	height: 70px;
 	width: 70px;
-	box-sizing: border-box;
-	padding-top: 11px;
 	text-align: center;
 }
+
+.loisirs i {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 
 .loisirs {
 	display: flex;
 	justify-content: space-around;
-	box-sizing: border-box;
 }
 
 #lisere h2 {
