@@ -61,8 +61,6 @@
 		height: 70px;
 		width: 70px;
 		box-sizing: border-box;
-		padding-top: 11px;
-		text-align: center;
 }
 
 	.loisirs {
@@ -70,5 +68,10 @@
 		justify-content: space-around;
 		box-sizing: border-box;
 }
+	.loisirs i {
+		display: flex;
+		justify-content: center;
+		align-items: center
+	}
 
 }
