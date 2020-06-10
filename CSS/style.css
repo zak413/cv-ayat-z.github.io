@@ -24,12 +24,13 @@
 #lisere {
 	width: 400px;
 	background: #FFC107;
-	padding: 8px 8px 130px 8px;
 	font-family: georgia, serif;
 	box-sizing: border-box;
+	padding-bottom: 130px;
 
 	
 }
+
 
 .fa-futbol, .fa-mountain, .fa-running {
 	font-size: 2.5em;
@@ -61,6 +62,7 @@
 	margin-right: 0px;
 	color: #FFC107;
 	text-align: center;
+	width: 400px;
 
 }
 #lisere p {
@@ -86,7 +88,7 @@ a:hover {
 }
 
 #lsr {
-	margin-top: 180px;
+	margin-top: 100px;
 }
 
 
@@ -178,6 +180,7 @@ header {
 h2 {
 	border-bottom: 1px solid #FFC107;
 	margin-left: 40px;
+	height: 35px;
 }
 
 li {
@@ -203,4 +206,11 @@ div a {
 	color: #263238;
 }
 
+
+.ville {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	
+}
 /*========================================= FIN CSS PARTIE DROITE=============================================*/

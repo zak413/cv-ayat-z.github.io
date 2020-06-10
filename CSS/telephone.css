@@ -1,5 +1,26 @@
-@media screen and (max-width: 747px) 
+@media screen and (max-width: 767px) 
 {
+	section ul {
+		padding: 2px;
+	}
+	
+	.ville {
+		margin-left: 40px;
+	}
+	.hexp {
+		height: 57px;
+	} 
+	
+	h3 {
+		font-size: 16px;
+	}
+
+	h2 {
+		width: 100%;
+		margin: 20px 0px 20px 0px;
+		text-align:left;
+		font-size: 22px;
+	}
 	#conteneur {
         flex-direction: column;
         width: 100%;
@@ -11,13 +32,15 @@
     }
 
     li {
-        flex-direction: column;
+		flex-direction: column;
     }
 
 
     .recommandation {
         flex-direction: column;
+		margin-left: 0;
     }
+	
 
     .formation {
         width: 100%;
@@ -31,10 +54,14 @@
     #lisere {
         width: 100%;
     }
+	
+	#lisere h2 {
+		width: 100%;
+		box-sizing: border-box;
+	}
 
     #photo {
         width: 100%;
-        background-color: white;
     }
 
     .prenom {
@@ -73,5 +100,5 @@
 		justify-content: center;
 		align-items: center
 	}
-
+	
 }
